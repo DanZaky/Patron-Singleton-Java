@@ -16,6 +16,8 @@ public class Cliente {
     public static void main(String[] args) {
         Bicicleta obj_Bicicleta1 = Bicicleta.getInstance();
         Bicicleta obj_Bicicleta2 = Bicicleta.getInstance();
+
+
         
         obj_Bicicleta1.setTipoBicicleta("Todo Terreno");
         JOptionPane.showMessageDialog(null, obj_Bicicleta2.getTipoBicicleta());
